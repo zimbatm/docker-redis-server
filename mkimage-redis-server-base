@@ -48,4 +48,4 @@ cp $REDIS_DIR/src/redis-server bin/redis-server
 ln -s redis-server bin/init
 
 ## Export to docker
-tar --numeric-owner -cf- . | docker import - redis-server
+tar --numeric-owner -cf- . | docker import - zimbatm/redis-server-base

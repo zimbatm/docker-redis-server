@@ -1,4 +1,4 @@
-FROM redis-server
+FROM zimbatm/redis-server-base
 MAINTAINER zimbatm@zimbatm.com
 
 VOLUME /data
